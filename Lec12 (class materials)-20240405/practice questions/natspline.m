@@ -17,6 +17,10 @@ for i = 1:n - 1
     b(i) = fd(i + 1, i, x, y) - h(x, i) / 3 * (2 * c(i) + c(i + 1));
     d(i) = (c(i + 1) - c(i)) / 3 / h(x, i);
 end
+a
+b
+c
+d
 for i = 1:m
     yy(i) = SplineInterp(x, n, a, b, c, d, xx(i));
 end
