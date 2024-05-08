@@ -21,7 +21,6 @@ a
 b
 c
 d
-
 for i = 1:m
     yy(i) = SplineInterp(x, n, a, b, c, d, xx(i));
 end
